@@ -92,7 +92,7 @@
             // 
             this.UserName.AutoSize = true;
             this.UserName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserName.Location = new System.Drawing.Point(258, 188);
+            this.UserName.Location = new System.Drawing.Point(258, 172);
             this.UserName.Name = "UserName";
             this.UserName.Size = new System.Drawing.Size(93, 19);
             this.UserName.TabIndex = 3;
@@ -110,10 +110,10 @@
             this.Textbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.Textbox1.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.Textbox1.LineThickness = 3;
-            this.Textbox1.Location = new System.Drawing.Point(262, 211);
+            this.Textbox1.Location = new System.Drawing.Point(262, 195);
             this.Textbox1.Margin = new System.Windows.Forms.Padding(4);
             this.Textbox1.Name = "Textbox1";
-            this.Textbox1.Size = new System.Drawing.Size(234, 21);
+            this.Textbox1.Size = new System.Drawing.Size(234, 37);
             this.Textbox1.TabIndex = 4;
             this.Textbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -142,7 +142,7 @@
             this.Textbox2.Location = new System.Drawing.Point(262, 268);
             this.Textbox2.Margin = new System.Windows.Forms.Padding(4);
             this.Textbox2.Name = "Textbox2";
-            this.Textbox2.Size = new System.Drawing.Size(234, 21);
+            this.Textbox2.Size = new System.Drawing.Size(234, 32);
             this.Textbox2.TabIndex = 6;
             this.Textbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
