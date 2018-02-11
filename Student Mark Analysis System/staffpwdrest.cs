@@ -30,12 +30,18 @@ namespace Student_Mark_Analysis_System
             conn.Open();
             SqlCommand newcom = conn.CreateCommand();
             newcom.CommandType = CommandType.Text;
-            newcom.CommandText = "update csestaff set firstname = '" + Textbox2.Text + "' where firstname = '" + Textbox1.Text + "'";
+            newcom.CommandText = "update csestaff set password = '" + Textbox2.Text + "' where password = '" + Textbox1.Text + "'";
             newcom.ExecuteNonQuery();
             conn.Close();
-            display();
-            MessageBox.Show("Data updated successfully");
+            MessageBox.Show("Password reseted successfully");
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Stafflogin r = new Stafflogin();
+            r.Show();
+            this.Hide();
         }
     }
 }

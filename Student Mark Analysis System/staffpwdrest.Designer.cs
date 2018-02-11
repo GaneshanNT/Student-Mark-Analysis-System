@@ -91,7 +91,7 @@
             // 
             this.UserName.AutoSize = true;
             this.UserName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserName.Location = new System.Drawing.Point(127, 191);
+            this.UserName.Location = new System.Drawing.Point(127, 164);
             this.UserName.Name = "UserName";
             this.UserName.Size = new System.Drawing.Size(112, 19);
             this.UserName.TabIndex = 4;
@@ -109,10 +109,10 @@
             this.Textbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.Textbox1.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.Textbox1.LineThickness = 3;
-            this.Textbox1.Location = new System.Drawing.Point(131, 214);
+            this.Textbox1.Location = new System.Drawing.Point(131, 187);
             this.Textbox1.Margin = new System.Windows.Forms.Padding(4);
             this.Textbox1.Name = "Textbox1";
-            this.Textbox1.Size = new System.Drawing.Size(234, 21);
+            this.Textbox1.Size = new System.Drawing.Size(234, 34);
             this.Textbox1.TabIndex = 5;
             this.Textbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -120,7 +120,7 @@
             // 
             this.Password.AutoSize = true;
             this.Password.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Password.Location = new System.Drawing.Point(127, 239);
+            this.Password.Location = new System.Drawing.Point(127, 225);
             this.Password.Name = "Password";
             this.Password.Size = new System.Drawing.Size(119, 19);
             this.Password.TabIndex = 6;
@@ -138,10 +138,10 @@
             this.Textbox2.LineIdleColor = System.Drawing.Color.Gray;
             this.Textbox2.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.Textbox2.LineThickness = 3;
-            this.Textbox2.Location = new System.Drawing.Point(131, 262);
+            this.Textbox2.Location = new System.Drawing.Point(131, 248);
             this.Textbox2.Margin = new System.Windows.Forms.Padding(4);
             this.Textbox2.Name = "Textbox2";
-            this.Textbox2.Size = new System.Drawing.Size(234, 21);
+            this.Textbox2.Size = new System.Drawing.Size(234, 35);
             this.Textbox2.TabIndex = 7;
             this.Textbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -151,7 +151,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(172)))), ((int)(((byte)(193)))));
-            this.button1.Location = new System.Drawing.Point(256, 290);
+            this.button1.Location = new System.Drawing.Point(256, 303);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 35);
             this.button1.TabIndex = 8;
@@ -165,12 +165,13 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(165, 290);
+            this.button2.Location = new System.Drawing.Point(165, 303);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(85, 35);
             this.button2.TabIndex = 10;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // staffpwdrest
             // 

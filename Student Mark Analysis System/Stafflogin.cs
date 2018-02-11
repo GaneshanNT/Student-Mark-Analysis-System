@@ -45,5 +45,19 @@ namespace Student_Mark_Analysis_System
                 label4.Text = "Invalid login";
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            staffpwdrest r = new staffpwdrest();
+            r.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 r = new Form1();
+            r.Show();
+            this.Hide();
+        }
     }
 }
