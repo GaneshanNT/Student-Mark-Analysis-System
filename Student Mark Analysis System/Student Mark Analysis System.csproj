@@ -65,6 +65,12 @@
     <Compile Include="Adminpanel.Designer.cs">
       <DependentUpon>Adminpanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="csestaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="csestaff.Designer.cs">
+      <DependentUpon>csestaff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,11 +97,20 @@
     <Compile Include="staffpwdrest.Designer.cs">
       <DependentUpon>staffpwdrest.cs</DependentUpon>
     </Compile>
+    <Compile Include="staffreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffreg.Designer.cs">
+      <DependentUpon>staffreg.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Adminlogin.resx">
       <DependentUpon>Adminlogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Adminpanel.resx">
       <DependentUpon>Adminpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="csestaff.resx">
+      <DependentUpon>csestaff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -118,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="staffpwdrest.resx">
       <DependentUpon>staffpwdrest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffreg.resx">
+      <DependentUpon>staffreg.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

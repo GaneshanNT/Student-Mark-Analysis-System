@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Student_Mark_Analysis_System
 {
-    public partial class Adminpanel : Form
+    public partial class csestaff : Form
     {
-        public Adminpanel()
+        public csestaff()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }

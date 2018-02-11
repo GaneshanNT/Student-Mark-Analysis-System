@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Student_Mark_Analysis_System
 {
-    public partial class Adminpanel : Form
+    public partial class staffreg : Form
     {
-        public Adminpanel()
+        public staffreg()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
