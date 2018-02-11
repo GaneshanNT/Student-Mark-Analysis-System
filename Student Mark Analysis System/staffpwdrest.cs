@@ -24,5 +24,18 @@ namespace Student_Mark_Analysis_System
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            SqlCommand newcom = conn.CreateCommand();
+            newcom.CommandType = CommandType.Text;
+            newcom.CommandText = "update csestaff set firstname = '" + Textbox2.Text + "' where firstname = '" + Textbox1.Text + "'";
+            newcom.ExecuteNonQuery();
+            conn.Close();
+            display();
+            MessageBox.Show("Data updated successfully");
+
+        }
     }
 }

@@ -214,6 +214,7 @@
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.Name = "Stafflogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Mark Analysis System";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

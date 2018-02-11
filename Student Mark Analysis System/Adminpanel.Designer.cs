@@ -37,6 +37,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(572, 393);
             this.Name = "Adminpanel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Adminpanel";
             this.ResumeLayout(false);
 
