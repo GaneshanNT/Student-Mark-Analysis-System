@@ -21,5 +21,10 @@ namespace Student_Mark_Analysis_System
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
