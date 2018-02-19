@@ -16,5 +16,12 @@ namespace Student_Mark_Analysis_System
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            csestaff c = new csestaff();
+            c.Show();
+            this.Hide();
+        }
     }
 }
