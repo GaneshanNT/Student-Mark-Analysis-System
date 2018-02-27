@@ -24,5 +24,10 @@ namespace Student_Mark_Analysis_System
             this.Hide();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

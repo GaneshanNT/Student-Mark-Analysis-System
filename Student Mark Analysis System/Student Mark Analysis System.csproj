@@ -71,6 +71,12 @@
     <Compile Include="csestaff.Designer.cs">
       <DependentUpon>csestaff.cs</DependentUpon>
     </Compile>
+    <Compile Include="csestudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="csestudent.Designer.cs">
+      <DependentUpon>csestudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="csestaff.resx">
       <DependentUpon>csestaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="csestudent.resx">
+      <DependentUpon>csestudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
