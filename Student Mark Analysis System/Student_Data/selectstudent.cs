@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Student_Mark_Analysis_System
 {
-    public partial class csestudent : Form
+    public partial class selectstudent : Form
     {
-        public csestudent()
+        public selectstudent()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            csestudentselect  s = new csestudentselect();
+            s.Show();
+            this.Hide();
         }
     }
 }

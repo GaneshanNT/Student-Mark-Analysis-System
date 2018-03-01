@@ -10,24 +10,18 @@ using System.Windows.Forms;
 
 namespace Student_Mark_Analysis_System
 {
-    public partial class Adminpanel : Form
+    public partial class csestudentselect : Form
     {
-        public Adminpanel()
+        public csestudentselect()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            staffreg s = new staffreg();
+            csestudent s = new csestudent();
             s.Show();
             this.Hide();
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
