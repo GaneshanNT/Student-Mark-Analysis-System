@@ -65,6 +65,18 @@
     <Compile Include="Admin\Adminpanel.Designer.cs">
       <DependentUpon>Adminpanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mark_entry\cycletest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mark_entry\cycletest1.Designer.cs">
+      <DependentUpon>cycletest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mark_entry\examselection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mark_entry\examselection.Designer.cs">
+      <DependentUpon>examselection.cs</DependentUpon>
+    </Compile>
     <Compile Include="Staff_data\csestaff.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +138,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Adminpanel.resx">
       <DependentUpon>Adminpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mark_entry\cycletest1.resx">
+      <DependentUpon>cycletest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mark_entry\examselection.resx">
+      <DependentUpon>examselection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Staff_data\csestaff.resx">
       <DependentUpon>csestaff.cs</DependentUpon>

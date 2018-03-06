@@ -27,7 +27,6 @@ namespace Student_Mark_Analysis_System
             conn.Open();
             String newcom = "insert into finalyear([register number ],[student name],department,year,section,[phone number],[email id]) VALUES('" + Textbox1.Text + "','" + Textbox2.Text + "','" + comboBox1 + "','" + comboBox2 + "','" + comboBox3 + "','" + Textbox3.Text + "','" + Textbox4.Text + "')";
             SqlCommand cmd = new SqlCommand(newcom, conn);
-
             cmd.ExecuteNonQuery();
             label8.Text = "Registered";
         }

@@ -8,20 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Student_Mark_Analysis_System
+namespace Student_Mark_Analysis_System.Mark_entry
 {
-    public partial class Staffdashboard : Form
+    public partial class cycletest1 : Form
     {
-        public Staffdashboard()
+        public cycletest1()
         {
             InitializeComponent();
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
-            Mark_entry.examselection r = new Mark_entry.examselection();
-            r.Show();
-            this.Hide();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
